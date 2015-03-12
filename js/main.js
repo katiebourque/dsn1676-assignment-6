@@ -6,6 +6,8 @@ var $btnCollapseExpand = $('.btn-collapse-expand');
 var $panel = $('.panel');
 var $btnBounce = $('.btn-bounce');
 var $circle = $('.circle');
+var $btnAppend = $('.btn-append');
+var $list = $('.list');
 
 $btnShowHide.on('click', function () {
     $box.toggleClass('js-box-expand');
