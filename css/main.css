@@ -31,8 +31,13 @@ div {
   height: 100px;
   top: calc(50% - 50px);
   width: 200px;
-
   background-color: limegreen;
+  opacity: 0;
+  transition: all 200ms ease-out;
+}
+
+.js-box-expand {
+    opacity: 100;
 }
 
 .diamond {
@@ -42,7 +47,12 @@ div {
   width: 80px;
 
   background-color: hotpink;
-  transform: rotate(45deg);
+  transform: rotate(45deg);  
+  transition: all 200ms ease-out;
+}
+
+  .slide-left {
+    right: -500px;
 }
 
 .panel {
